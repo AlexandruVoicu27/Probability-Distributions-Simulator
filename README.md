@@ -22,12 +22,3 @@ meniu.py (Graphical User Interface): Built using the tkinter and ttk libraries, 
 simulari.py (Simulation Logic): Acts as the backend engine. It leverages Python's built-in random and math modules to generate the randomized data based on the user's input. For data persistence and traceability, the raw outcomes are temporarily exported to text files within a dedicated Simulari\ directory.
 
 grafice.py (Data Visualization): Responsible for the visual output. It reads the raw data from the generated text files and uses the numpy and matplotlib.pyplot libraries to render appropriate charts—such as bar charts, histograms, or scatter plots.
-
-**How to Run**
-Ensure you have Python installed on your system, along with the numpy and matplotlib libraries.
-
-Launch the application by running the start.bat file. Alternatively, you can run the following command in your terminal: python meniu.py.
-
-Navigate the main menu to select the desired random variable or vector.
-
-Input the required theoretical parameters and click "Simulează" (Simulate) to process the data and view the resulting plot.
